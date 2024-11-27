@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://ct833wl0biajb"]
+
+[ext_resource type="Texture2D" uid="uid://tfhatjb6cutx" path="res://sprites/menu.png" id="1_77h8c"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q8hos"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_77h8c")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(263, 148)
+sprite_frames = SubResource("SpriteFrames_q8hos")
