@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732752282
+default.tres::Theme::3741962267732265028::1732744483::0::1::::<><>::uid://b7eb7wyfqm8yh::::res://sprites/balloon-icon.png<>uid://bqytixddncf7v::::res://fonts/OpenDyslexicAlta-Bold.ttf<>uid://dp2bodi1dlah8::::res://fonts/RobotoMono-Bold.ttf<>uid://b0qavfbjs7vwg::::res://fonts/RobotoMono-Regular.ttf
+icon.svg::CompressedTexture2D::3164983889103038241::1732748401::1732748888::1::::<><>::
+::res://cenas/::1732751772
+menu.tscn::PackedScene::6176305114063676515::1732751772::0::1::::<><>::uid://tfhatjb6cutx::::res://sprites/menu.png
+::res://fonts/::1732750396
+OpenDyslexicAlta-Bold.ttf::FontFile::3560156370038086505::1732394001::1732750396::1::::<><>::
+RobotoMono-Bold.ttf::FontFile::8267918794231086295::1732394001::1732750396::1::::<><>::
+RobotoMono-Regular.ttf::FontFile::4174209584976680646::1732394001::1732750396::1::::<><>::
+::res://sprites/::1732748266
+menu.png::CompressedTexture2D::1344335948776136141::1732748061::1732748266::1::::<><>::
+tom.png::CompressedTexture2D::5418741883419946933::1732744294::1732748223::1::::<><>::
