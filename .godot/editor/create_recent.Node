@@ -1,6 +1,8 @@
 Button
+Control
+Sprite2D
+Node2D
 Label
 AnimatedSprite2D
-Control
 RichTextLabel
 CanvasLayer
