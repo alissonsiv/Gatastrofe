@@ -1,13 +1,13 @@
 [gd_scene load_steps=2 format=3 uid="uid://cwjcvslqisoh0"]
 
-[ext_resource type="Texture2D" uid="uid://d1wcut73fl0xc" path="res://sprites/background.jpg" id="1_4g8mq"]
+[ext_resource type="Texture2D" uid="uid://d1wcut73fl0xc" path="res://sprites/background.jpg" id="1_78a1w"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(579, 321)
 scale = Vector2(1.88717, 1.76403)
-texture = ExtResource("1_4g8mq")
+texture = ExtResource("1_78a1w")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
