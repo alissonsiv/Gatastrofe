@@ -1,49 +1,64 @@
-[gd_scene load_steps=4 format=3 uid="uid://ct833wl0biajb"]
+[gd_scene load_steps=5 format=3 uid="uid://b007y3ecirjqf"]
 
-[ext_resource type="Texture2D" uid="uid://tfhatjb6cutx" path="res://sprites/menu.png" id="1_77h8c"]
-[ext_resource type="Script" path="res://cenas/menu.gd" id="1_rhm7e"]
+[ext_resource type="Script" path="res://scripts/Menu.gd" id="1_cqehd"]
+[ext_resource type="PackedScene" uid="uid://qhfp8r6qklt" path="res://cenas/Level.tscn" id="2_sqlrt"]
+[ext_resource type="Texture2D" uid="uid://bntierak7dhwh" path="res://sprites/menu.jpg" id="2_tsms8"]
+[ext_resource type="Texture2D" uid="uid://bvjsibadgcr7q" path="res://sprites/titulo.png" id="5_lqalv"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_wo5ac"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("1_77h8c")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
+[node name="MainMenu" type="CanvasLayer" node_paths=PackedStringArray("level_selection", "play_button")]
+script = ExtResource("1_cqehd")
+level_selection = NodePath("Fases")
+play_button = NodePath("Jogar")
 
-[node name="Control" type="Control"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("1_rhm7e")
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(-9, -33)
+scale = Vector2(0.277222, 0.285833)
+texture = ExtResource("2_tsms8")
+centered = false
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(262, 147)
-sprite_frames = SubResource("SpriteFrames_wo5ac")
-
-[node name="Label" type="Label" parent="."]
-offset_left = 191.0
-offset_top = 14.0
-offset_right = 351.0
-offset_bottom = 58.0
-theme_override_font_sizes/font_size = 31
-text = "Gatostrofe"
+[node name="Titulo" type="Sprite2D" parent="."]
+position = Vector2(249, 60)
+scale = Vector2(0.26508, 0.284328)
+texture = ExtResource("5_lqalv")
 
 [node name="Jogar" type="Button" parent="."]
-offset_left = 210.0
-offset_top = 194.0
-offset_right = 324.0
-offset_bottom = 225.0
-text = "Jogar
-"
+offset_left = 183.0
+offset_top = 140.0
+offset_right = 293.0
+offset_bottom = 176.0
+text = "JOGAR"
 
 [node name="Sair" type="Button" parent="."]
-offset_left = 210.0
-offset_top = 235.0
-offset_right = 321.0
-offset_bottom = 266.0
-text = "Sair"
+offset_left = 186.0
+offset_top = 189.0
+offset_right = 293.0
+offset_bottom = 224.0
+text = "SAIR"
+
+[node name="Fases" type="GridContainer" parent="."]
+visible = false
+offset_left = 154.0
+offset_top = 138.0
+offset_right = 316.0
+offset_bottom = 221.0
+columns = 2
+
+[node name="Nivel1" parent="Fases" instance=ExtResource("2_sqlrt")]
+layout_mode = 2
+
+[node name="Nivel4" parent="Fases" instance=ExtResource("2_sqlrt")]
+layout_mode = 2
+
+[node name="Nivel5" parent="Fases" instance=ExtResource("2_sqlrt")]
+layout_mode = 2
+
+[node name="Nivel6" parent="Fases" instance=ExtResource("2_sqlrt")]
+layout_mode = 2
+
+[node name="Nivel2" parent="Fases" instance=ExtResource("2_sqlrt")]
+layout_mode = 2
+
+[node name="Nivel3" parent="Fases" instance=ExtResource("2_sqlrt")]
+layout_mode = 2
+
+[connection signal="pressed" from="Sair" to="." method="exit_game"]
