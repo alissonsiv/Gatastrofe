@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://qhfp8r6qklt"]
+
+[node name="Button" type="Button"]
+offset_right = 62.0
+offset_bottom = 54.0
+text = "Level 1"
