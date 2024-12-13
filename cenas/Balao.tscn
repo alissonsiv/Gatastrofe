@@ -1,0 +1,65 @@
+[gd_scene load_steps=9 format=3 uid="uid://cabpalol7tbxf"]
+
+[ext_resource type="Script" path="res://scripts/Gatos.gd" id="1_w8pcq"]
+[ext_resource type="Texture2D" uid="uid://chm3frqkgejit" path="res://Imagens/balloon.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dc0hcma5g8arn" path="res://Imagens/jade.png" id="3_ctidk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_65n7l"]
+atlas = ExtResource("2")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yh3di"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idtdy"]
+atlas = ExtResource("2")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_65n7l")
+}],
+"loop": true,
+"name": &"Burst",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yh3di")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idtdy")
+}],
+"loop": true,
+"name": &"Floating",
+"speed": 4.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="5"]
+radius = 7.0
+height = 22.0
+
+[node name="Balao" type="Area2D" groups=["Target"]]
+gravity_point_center = Vector2(0, -20)
+gravity_direction = Vector2(0, -20)
+script = ExtResource("1_w8pcq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, -7)
+sprite_frames = SubResource("4")
+animation = &"Floating"
+autoplay = "Floating"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -9)
+shape = SubResource("5")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4, 23)
+texture = ExtResource("3_ctidk")
