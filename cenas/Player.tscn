@@ -1,0 +1,95 @@
+[gd_scene load_steps=12 format=3 uid="uid://c3iaqn3od4auw"]
+
+[ext_resource type="Script" path="res://scripts/Canhao.gd" id="1_g4hr2"]
+[ext_resource type="Texture2D" uid="uid://dgfr60egsur1g" path="res://sprites/player1.png" id="2_j2nno"]
+[ext_resource type="Texture2D" uid="uid://drdncpd11eyqm" path="res://sprites/player2.png" id="3_pmqd6"]
+[ext_resource type="Texture2D" uid="uid://c8mmfhsrdfymt" path="res://sprites/player3.png" id="4_ygvsc"]
+[ext_resource type="Texture2D" uid="uid://dssjh7sp2il70" path="res://sprites/player4.png" id="5_mkwee"]
+[ext_resource type="Texture2D" uid="uid://dl7mv1xfj7hm0" path="res://sprites/canhao1.png" id="6_a6q4k"]
+[ext_resource type="Texture2D" uid="uid://d18ogmgrmjmim" path="res://sprites/canhao2.png" id="7_3u5ql"]
+[ext_resource type="Texture2D" uid="uid://bp2ey1a13fn78" path="res://sprites/canhao3.png" id="8_pmej5"]
+[ext_resource type="Texture2D" uid="uid://d1eosevd1gf82" path="res://sprites/canhao4.png" id="9_l3x62"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qwbvv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_j2nno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pmqd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ygvsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mkwee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ygvsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pmqd6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eisqs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_a6q4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3u5ql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pmej5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_l3x62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pmej5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3u5ql")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_g4hr2")
+
+[node name="Balao" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, -16)
+scale = Vector2(1.12329, 1.23333)
+sprite_frames = SubResource("SpriteFrames_qwbvv")
+autoplay = "default"
+frame_progress = 0.554845
+
+[node name="Canhao" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(15, 40)
+scale = Vector2(0.893988, 0.905715)
+sprite_frames = SubResource("SpriteFrames_eisqs")
+autoplay = "default"
+frame_progress = 0.601052
+offset = Vector2(8.73256, -0.688889)
+
+[node name="ReloadProgress" type="ProgressBar" parent="."]
+offset_left = -10.0
+offset_top = 38.0
+offset_right = 5.0
+offset_bottom = 43.0
+value = 100.0
+show_percentage = false
+
+[node name="ReloadTimer" type="Timer" parent="."]
+wait_time = 1.5
+
+[connection signal="timeout" from="ReloadTimer" to="." method="reload"]
