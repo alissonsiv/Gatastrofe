@@ -1,12 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734020963
+::res://::1734021577
 default.tres::Theme::4037580797037977481::1734020959::0::1::::<><>::
+::res://Audio/::1734021573
+trilha_sonora.mp3::AudioStreamMP3::5837025977447396581::1733547081::1734021580::1::::<><>::
 ::res://Cenas/::1734020959
 Jogo2.tscn::PackedScene::1837852367328282796::1734020959::0::1::::<><>::uid://bjyqrqv1kvioa::::res://Imagens/background.png
 Jogo.tscn::PackedScene::5815409862668292044::1734020932::0::1::::<><>::uid://bxr3mo5s3m426::::res://default.tres
 Level.tscn::PackedScene::33464831627113473::1734020931::0::1::::<><>::
 Menu.tscn::PackedScene::4194738498252911761::1734020931::0::1::::<><>::res://scripts/Menu.gd<>uid://qhfp8r6qklt::::res://Cenas/Level.tscn<>uid://cm6okbepwu0mk::::res://Imagens/menu.jpg<>uid://cw68gjpn3825p::::res://Imagens/titulo.png
-::res://Imagens/::1734021377
+::res://Imagens/::1734021379
 campo.png::CompressedTexture2D::3408949002036051296::1733088130::1734021379::1::::<><>::
 icon.png::CompressedTexture2D::4880378190431988733::1733649775::1734020325::1::::<><>::
 menu.jpg::CompressedTexture2D::5679971156670537190::1733645795::1734020052::1::::<><>::
