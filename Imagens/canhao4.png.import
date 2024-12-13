@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvjsibadgcr7q"
-path="res://.godot/imported/titulo.png-bcf6ff2d5773ff8ee513c04bed66e3df.ctex"
+uid="uid://d1eosevd1gf82"
+path="res://.godot/imported/canhao4.png-daf07d49b772676a28e9bb10beddd4ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/titulo.png"
-dest_files=["res://.godot/imported/titulo.png-bcf6ff2d5773ff8ee513c04bed66e3df.ctex"]
+source_file="res://sprites/canhao4.png"
+dest_files=["res://.godot/imported/canhao4.png-daf07d49b772676a28e9bb10beddd4ae.ctex"]
 
 [params]
 

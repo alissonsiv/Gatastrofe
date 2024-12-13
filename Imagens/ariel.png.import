@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7bwmp1rlqkjy"
-path="res://.godot/imported/ariel.png-17c1d085f52d2d3902c40ae05bd942a0.ctex"
+uid="uid://b2ot1ln6q36va"
+path="res://.godot/imported/ariel.png-8a26545d9df5d4e116a09972a6703c34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/ariel.png"
-dest_files=["res://.godot/imported/ariel.png-17c1d085f52d2d3902c40ae05bd942a0.ctex"]
+source_file="res://sprites/ariel.png"
+dest_files=["res://.godot/imported/ariel.png-8a26545d9df5d4e116a09972a6703c34.ctex"]
 
 [params]
 
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

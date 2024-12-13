@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chm3frqkgejit"
-path="res://.godot/imported/balloon.png-a8fd980aa9b34b7fcf05c0cf47f0772d.ctex"
+uid="uid://c1nhhiv68m608"
+path="res://.godot/imported/balloon.png-cecfc43db1a1e7553d1f8a6de18149cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Imagens/balloon.png"
-dest_files=["res://.godot/imported/balloon.png-a8fd980aa9b34b7fcf05c0cf47f0772d.ctex"]
+source_file="res://sprites/balloon.png"
+dest_files=["res://.godot/imported/balloon.png-cecfc43db1a1e7553d1f8a6de18149cc.ctex"]
 
 [params]
 
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0
