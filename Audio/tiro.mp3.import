@@ -2,13 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-uid="uid://6poesg3hwckg"
-path="res://.godot/imported/tiro.mp3-6d7dd6289d1ac8f48cef760229243502.mp3str"
+uid="uid://bvlt6wjeyt0ld"
+path="res://.godot/imported/tiro.mp3-1ee3be11e790e32a04274d24fd4bae86.mp3str"
 
 [deps]
 
-source_file="res://Audio/tiro.mp3"
-dest_files=["res://.godot/imported/tiro.mp3-6d7dd6289d1ac8f48cef760229243502.mp3str"]
+source_file="res://audio/tiro.mp3"
+dest_files=["res://.godot/imported/tiro.mp3-1ee3be11e790e32a04274d24fd4bae86.mp3str"]
 
 [params]
 

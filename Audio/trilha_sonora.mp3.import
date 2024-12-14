@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://cpfq72ui52ld2"
-path="res://.godot/imported/trilha_sonora.mp3-ed4ca4604faa3fb32ff66257334d01f5.mp3str"
+path="res://.godot/imported/trilha_sonora.mp3-9b2f4cb89a929b30946c350c4fc85425.mp3str"
 
 [deps]
 
-source_file="res://Audio/trilha_sonora.mp3"
-dest_files=["res://.godot/imported/trilha_sonora.mp3-ed4ca4604faa3fb32ff66257334d01f5.mp3str"]
+source_file="res://audio/trilha_sonora.mp3"
+dest_files=["res://.godot/imported/trilha_sonora.mp3-9b2f4cb89a929b30946c350c4fc85425.mp3str"]
 
 [params]
 

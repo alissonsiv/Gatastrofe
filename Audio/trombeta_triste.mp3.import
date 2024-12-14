@@ -2,13 +2,13 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-uid="uid://bja5k773dyfwl"
-path="res://.godot/imported/trombeta_triste.mp3-8485966aca0e7c56e895604fa09b6aa1.mp3str"
+uid="uid://dywum0btlywyy"
+path="res://.godot/imported/trombeta_triste.mp3-8cb936c65d75465219c07ee705eecc2d.mp3str"
 
 [deps]
 
-source_file="res://Audio/trombeta_triste.mp3"
-dest_files=["res://.godot/imported/trombeta_triste.mp3-8485966aca0e7c56e895604fa09b6aa1.mp3str"]
+source_file="res://audio/trombeta_triste.mp3"
+dest_files=["res://.godot/imported/trombeta_triste.mp3-8cb936c65d75465219c07ee705eecc2d.mp3str"]
 
 [params]
 

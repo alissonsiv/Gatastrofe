@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://cabpalol7tbxf"]
 
 [ext_resource type="Script" path="res://scripts/Gatos.gd" id="1_w8pcq"]
-[ext_resource type="Texture2D" uid="uid://c1nhhiv68m608" path="res://Imagens/balloon.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://bfgv0i4nyvyia" path="res://Imagens/jade.png" id="3_ctidk"]
+[ext_resource type="Texture2D" uid="uid://c1nhhiv68m608" path="res://sprites/balloon.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bfgv0i4nyvyia" path="res://sprites/jade.png" id="3_ctidk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_65n7l"]
 atlas = ExtResource("2")

@@ -1,4 +1,9 @@
-[gd_resource type="Theme" load_steps=14 format=3 uid="uid://bxr3mo5s3m426"]
+[gd_resource type="Theme" load_steps=18 format=3 uid="uid://wtsth2v10p5m"]
+
+[ext_resource type="Texture2D" uid="uid://wa5hy65lwu2a" path="res://sprites/balloon-icon.png" id="1_3jupg"]
+[ext_resource type="FontFile" uid="uid://bqytixddncf7v" path="res://fonts/OpenDyslexicAlta-Bold.ttf" id="1_w46dw"]
+[ext_resource type="FontFile" uid="uid://dp2bodi1dlah8" path="res://fonts/RobotoMono-Bold.ttf" id="2_x431d"]
+[ext_resource type="FontFile" uid="uid://b0qavfbjs7vwg" path="res://fonts/RobotoMono-Regular.ttf" id="3_p0hmi"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8ekhn"]
 bg_color = Color(0.192157, 0.192157, 0.192157, 1)
@@ -161,6 +166,7 @@ shadow_color = Color(0, 0, 0, 0)
 anti_aliasing = false
 
 [resource]
+default_font = ExtResource("1_w46dw")
 default_font_size = 14
 AcceptDialog/styles/panel = SubResource("StyleBoxFlat_8ekhn")
 Button/colors/font_color = Color(1, 1, 0.929412, 1)
@@ -186,9 +192,9 @@ Button/styles/normal = SubResource("StyleBoxFlat_g1f1j")
 Button/styles/pressed = SubResource("StyleBoxFlat_mcbym")
 FlatPanelContainer/base_type = &"PanelContainer"
 FlatPanelContainer/styles/panel = SubResource("StyleBoxEmpty_738a8")
-HSlider/icons/grabber = null
-HSlider/icons/grabber_disabled = null
-HSlider/icons/grabber_highlight = null
+HSlider/icons/grabber = ExtResource("1_3jupg")
+HSlider/icons/grabber_disabled = ExtResource("1_3jupg")
+HSlider/icons/grabber_highlight = ExtResource("1_3jupg")
 HSlider/styles/grabber_area = SubResource("StyleBoxFlat_aoa4k")
 HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_lys1d")
 HSlider/styles/slider = SubResource("StyleBoxFlat_4th7c")
@@ -201,6 +207,6 @@ Label/constants/shadow_offset_y = 1
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_ehu4r")
 ProgressBar/styles/background = SubResource("StyleBoxFlat_68fkk")
 ProgressBar/styles/fill = SubResource("StyleBoxFlat_l7wxw")
-RichTextLabel/fonts/bold_font = null
-RichTextLabel/fonts/normal_font = null
+RichTextLabel/fonts/bold_font = ExtResource("2_x431d")
+RichTextLabel/fonts/normal_font = ExtResource("3_p0hmi")
 VBoxContainer/constants/separation = 15
