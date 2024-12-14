@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg6femokope5i"
-path="res://.godot/imported/dirigivel.png-ca762b96c487d7bb8f79a6549e6dc97a.ctex"
+path="res://.godot/imported/dirigivel.png-ae3050ea8b0e159362d11ae0d8f60fc9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/dirigivel.png"
-dest_files=["res://.godot/imported/dirigivel.png-ca762b96c487d7bb8f79a6549e6dc97a.ctex"]
+source_file="res://Imagens/dirigivel.png"
+dest_files=["res://.godot/imported/dirigivel.png-ae3050ea8b0e159362d11ae0d8f60fc9.ctex"]
 
 [params]
 

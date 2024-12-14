@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl7mv1xfj7hm0"
-path="res://.godot/imported/canhao1.png-60e88c7c17bcd52af352074f82f40a5f.ctex"
+path="res://.godot/imported/canhao1.png-2818f3b2ee9bd5ffcb654d4ea841cd00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/canhao1.png"
-dest_files=["res://.godot/imported/canhao1.png-60e88c7c17bcd52af352074f82f40a5f.ctex"]
+source_file="res://Imagens/canhao1.png"
+dest_files=["res://.godot/imported/canhao1.png-2818f3b2ee9bd5ffcb654d4ea841cd00.ctex"]
 
 [params]
 

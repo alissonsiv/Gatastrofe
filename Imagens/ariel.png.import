@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2ot1ln6q36va"
-path="res://.godot/imported/ariel.png-8a26545d9df5d4e116a09972a6703c34.ctex"
+path="res://.godot/imported/ariel.png-17c1d085f52d2d3902c40ae05bd942a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/ariel.png"
-dest_files=["res://.godot/imported/ariel.png-8a26545d9df5d4e116a09972a6703c34.ctex"]
+source_file="res://Imagens/ariel.png"
+dest_files=["res://.godot/imported/ariel.png-17c1d085f52d2d3902c40ae05bd942a0.ctex"]
 
 [params]
 

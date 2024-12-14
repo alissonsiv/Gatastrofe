@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1nhhiv68m608"
-path="res://.godot/imported/balloon.png-cecfc43db1a1e7553d1f8a6de18149cc.ctex"
+path="res://.godot/imported/balloon.png-a8fd980aa9b34b7fcf05c0cf47f0772d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/balloon.png"
-dest_files=["res://.godot/imported/balloon.png-cecfc43db1a1e7553d1f8a6de18149cc.ctex"]
+source_file="res://Imagens/balloon.png"
+dest_files=["res://.godot/imported/balloon.png-a8fd980aa9b34b7fcf05c0cf47f0772d.ctex"]
 
 [params]
 
